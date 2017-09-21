@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+.leftside,.sidetop,.sidemid,.sidemid ul,.sidemid ul li,.sidemid ul li a,.sidebottom{
+	width:194px;
+}
+.leftside{
+	height:464px;
+	margin:5px 20px 0;
+	background:#eae9e9;
+}
+.sidetop{
+	height:49px;
+	background:url(../images/sidetop.jpg) no-repeat;
+}
+.sidemid,.sidemid ul{
+	height:190px;
+}
+.sidemid ul li{
+	height:36px;
+	border-bottom:2px dotted #b3b8bb;
+}
+.sidemid ul li a{
+	height:36px;
+	font-size:16px;
+	color:#515456;
+	font-weight:bold;
+	line-height:36px;
+	text-align:center;
+	display:block;
+	background:url(../images/bt.jpg) no-repeat 10% center #eae9e9;
+}
+.sidemid ul li a:hover{
+	color:#ea8888;
+	background:url(../images/bthover.jpg) no-repeat 10% center #fefdfd;
+}
+.sidebottom{
+	height:225px;
+	background:url(../images/sidebottom.jpg) no-repeat;
+}
+.rightside{
+	width:689px;
+	height:600px;
+	margin:5px 0 0;
+}
+.rightside h2{
+	text-align:center;
+	line-height:35px;
+}
+.rightside ul li{
+	width:689px;
+	height:20px;
+	line-height:20px;
+    background:url(../images/bt1.jpg) no-repeat left center;
+}
+.rightside ul li a{
+	width:670px;
+	color:#626668;
+	margin-left:15px;
+	display:inline-block;
+}
+.rightside ul li a:hover{
+	color:#fff;
+	background:#999;
+}
+.rightside ul li span.tu{
+	color:#d76b6b;
+}
+.rightside ul li span.date{
+	float:right;
+	_margin-right:20px;
+}

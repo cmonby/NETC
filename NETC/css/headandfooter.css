@@ -1,0 +1,132 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background:#fcfcfc;
+	font-family:"宋体",Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#1a1b1b;
+	min-width:1100px;
+}
+img{
+	border:none;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	
+}
+#header,.title,#footer,#banner,#contents,.contents{
+	width:1100px;
+}
+#header,div.intmid p,.introduce,#footer,#banner,#contents,.contents,.main,.middle p{
+	margin:0 auto;
+}
+.nav ul li,.intleft,.intmid,.intright,.newsleft,.news1,.news2,.news ul li a,.news3,.guide,.ser1,.ser2,.ser3,.ser4,.ser1body,.ser2body,.ser3body,.ser4body,.apply,.phone,.table,.table img,.leftside,.rightside,.rightside ul li a{
+	float:left;
+}
+/*---------------------------fuye------------------------------*/
+.contents{
+	height:680px;
+	background:#f2f2f2;
+}
+.main{
+	width:950px;
+	height:647px;
+	background:#f9f9f9;
+}
+.top{
+	width:950px;
+	height:17px;
+	background:url(../images/top.jpg) no-repeat;
+}
+.middle{
+	width:946px;
+	height:613px;
+	border-left:2px solid #e2e2e2;
+	border-right:2px solid #e2e2e2;
+	overflow:auto;
+}
+.bottom{
+	width:950px;
+	height:17px;
+	background:url(../images/bottom.jpg) no-repeat;
+}
+/*---------------------------head------------------------------*/
+
+#header{
+	height:130px;
+	position:relative;
+	background:#f2f2f2;
+}
+.title{
+	height:95px;
+	background:url(../images/hbg.jpg) no-repeat top center;
+	position:absolute;
+	z-index:2;
+}
+.nav{
+	background:#0C0;
+	position:absolute;
+	top:70px;
+	left:142px;
+	z-index:200;
+}
+div.nav,div.nav ul{
+	width:816px;
+	height:53px;
+}
+div.nav ul li{
+	width:102px;
+	height:53px;
+	font-family:"楷体","微软雅黑";
+	font-size:18px;
+	font-weight:bold;
+	line-height:53px;
+	text-align:center;
+	background:url(../images/nav.jpg) repeat-x;
+}
+div.nav ul li a:hover{
+    background:url(../images/navh.jpg) repeat-x;
+	color:#bd0a16;
+}
+div.nav ul li.first{
+	background:url(../images/first.jpg);
+}
+div.nav ul li.first a:hover{
+	background:url(../images/firsth.jpg);
+}
+div.nav ul li.last{
+	background:url(../images/last.jpg)
+}
+div.nav ul li.last a:hover{
+	background:url(../images/lasth.jpg)
+}
+div.nav ul li a{
+	color:#515456;
+	display:block;
+}
+/*-----------------------------------------contents------------------------------*/
+
+/*-----------------------------------------footer------------------------------*/
+#footer{
+	height:75px;
+	border-top:2px solid #a5a4a4;
+	color:#949494;
+	background:#c8c8c8;
+}
+    #footer a {
+    color:#949494;
+    }
+#footer ul{
+	width:400px;
+	line-height:25px;
+	text-align:center;
+	margin:15px auto;
+}

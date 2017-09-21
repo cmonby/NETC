@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+.middle h2,.middle h4{
+	text-align:center;
+	line-height:35px;
+}
+.middle h3,.middle h5{
+	margin-left:45px;
+}
+.middle span{
+	color:#d76b6b;
+}
+.middle p{
+	width:830px;
+	text-indent:2em;
+	line-height:20px;
+}
